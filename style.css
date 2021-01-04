@@ -1,3 +1,128 @@
 body {
-    background-color: red;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 50px;
+}
+h2 {
+    font-weight: 500;
+    font-size: 40px;
+}
+
+h3 {
+    font-weight: 600;
+}
+
+p {
+    color: dimgray;
+}
+
+a {
+    text-decoration: none;
+}
+
+.orange {
+    color: orange;
+}
+
+.tomato {
+    color: tomato;
+}
+
+.half-width {
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+    width: 38%;
+}
+
+.top-image {
+    width: 85%;
+    padding-top: 10%;
+    margin-left: 10%;
+    
+}
+
+.middle-image {
+    width: 90%;
+    padding-top: 7%;
+    
+}
+
+section {
+    height: 500px;
+    padding-bottom: 100px;
+    padding-top: 50px
+}
+
+.top {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+.middle {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.bottom {
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.single-experience{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 80%;
+    background-color: white;
+    padding-right: 2%;
+}
+
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightSalmon, tomato);
+    border-image-slice: 1;
+}
+
+#baby-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+
+.xp {
+    padding-left: 7%;
+}
+
+.dream {
+    float: left;
+    padding-left: 5%;
+    width: 40%;
+}
+
+.btn {
+    padding-top: 200px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: white;
+    background-image: linear-gradient(45deg, lightsalmon, tomato);
+    padding: 10px 20px ;
+    border-radius: 5px;
+}
+
+.btn2 {
+    padding-top: 200px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: white;
+    background-image: linear-gradient(45deg, rgb(56, 56, 228), cyan);
+    padding: 10px 20px ;
+    border-radius: 5px;
 }
